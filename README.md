@@ -395,4 +395,7 @@ Issues I faced while setting up slurm
 - Remove DB and User created in MySQL
 - Uninstall the `slurm` and `munge` packages
 
+## Reference
+https://southgreenplatform.github.io/trainings/hpc/slurminstallation/
+
 --- END ---
