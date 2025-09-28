@@ -321,7 +321,7 @@ Start/Restart `slurmd` service on worker nodes
 Restart `slurmdbd` and `slurmctld` services on *access* node 
 
 Run `sinfo`  
-All nodes should be `UP` and `idle`   
+All nodes should be `UP` and `idle`, except *atlas*, which was intentionally set to `DOWN` in my cluster.  
 Run test scripts
 
 ***
