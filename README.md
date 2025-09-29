@@ -321,6 +321,12 @@ Start/Restart `slurmd` service on worker nodes
 Restart `slurmdbd` and `slurmctld` services on *access* node 
 
 Run `sinfo`  
+```bash
+PARTITION    AVAIL  TIMELIMIT  NODES  STATE NODELIST
+gpu_nodes       up   infinite      2   idle pulse,titan
+cpu_nodes*      up   infinite      4   idle lyra,nebula,orion,sirius
+storage_node  down   infinite      1   idle atlas
+```
 All nodes should be `UP` and `idle`, except *atlas*, which was intentionally set to `DOWN` in my cluster.  
 Run test scripts
 
